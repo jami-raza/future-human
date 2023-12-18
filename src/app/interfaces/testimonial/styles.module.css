@@ -1,0 +1,56 @@
+.testimonial{
+    width: 100%;
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 120px;
+}
+.test1 h1{
+    width: 50%;
+    font-weight: 300;
+    font-size: 48px;
+    margin: 15px 0;
+}
+.test1 h1 span{
+    font-weight: 700;
+}
+.test2{
+    margin-top: 20px;
+}
+.slide h3{
+    margin-top: 10px;
+}
+.dot.active {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background: #4F00FF;
+}
+.dots {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 60px;
+}
+.dot{
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background: #9E9E9E;
+    border: none;
+    cursor: pointer;
+}
+@media only screen and (max-width: 600px) {
+    .slide{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .test1 h1{
+        width: 100%;
+    }
+    .test1 h1 br{
+        display: none;
+    }
+    
+}

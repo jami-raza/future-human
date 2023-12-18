@@ -1,0 +1,83 @@
+.drawer{
+    color: #565656;
+    z-index: 9999;
+    display: none;
+}
+.navbar {
+    display: none;
+  }
+  .drawerBtn button{
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  .navbar.open {
+    display: block;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: #fff;
+    padding: 16px;
+    height: 100vh;
+    width: 50%;
+  }
+  
+  .navbar .text-right {
+    margin-bottom: 4px;
+  }
+  
+  .navbar button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-right: 20px;
+    margin-top: 20px;
+    
+  }
+  .right{
+    text-align: right;
+  }
+ 
+  .navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+   
+  }
+  
+  .navbar ul li {
+    padding: 16px;
+    font-weight: 400;
+   
+  }
+  .link{
+    text-decoration: none;
+    color: #565656;
+  }
+  .login{
+    text-decoration: none;
+    color: #FF0400;
+  }
+  .signin{
+    text-decoration: none;
+    color: #4F00FF;
+  }
+
+  
+  .navbar .text-white {
+    color: white;
+  }
+  
+  .navbar .text-center {
+    text-align: center;
+  }
+  
+  .navbar  {
+    background-color: #fff;
+  }
+
+@media only screen and (max-width: 1024px) {
+    .drawer{
+        display: block;
+    }
+}

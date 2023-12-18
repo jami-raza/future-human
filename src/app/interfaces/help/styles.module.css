@@ -1,0 +1,50 @@
+.help{
+    width: 100%;
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 120px;
+    overflow-y: hidden;
+    background-color: #000;
+    border-radius: 20px;
+    position: relative;
+    
+}
+.isoImg{
+    position: absolute;
+    right: -35px;
+    bottom: -35px;
+    z-index: 9999;
+    transform: rotate(-17.299deg);
+}
+.helpContainer{
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+    padding: 60px 50px;
+    color: #fff;
+  
+    /* position: relative; */
+}
+.help h1{
+    font-size: 48px;
+    font-weight: 300;
+    line-height: 1;
+}
+.help h1 span{
+    font-weight: 700;
+
+}
+
+.help2 p{
+    margin-bottom: 20px;
+}
+.help2Btn{
+    margin-top: 40px;
+}
+@media only screen and (max-width: 850px) {
+    .helpContainer{
+        flex-wrap: wrap;
+        gap: 40px;
+    }
+}

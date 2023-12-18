@@ -1,0 +1,111 @@
+.contact{
+    width: 100%;
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.contact1{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.contact1sec1{
+    width: 50%;
+}
+.heading{
+    font-weight: 300;
+    font-size: 48px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    
+}
+.heading span{
+    font-weight: 700;
+}
+.para{
+    width: 100%;
+    max-width: 300px;
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.mailBtn{
+    padding: 10px 30px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(89.86deg, #B899FF 0.12%, #4F00FF 99.91%);
+    margin-bottom: 20px;
+}
+.mailBtn svg{
+    margin-right: 10px;
+}
+.phoneBtn{
+    padding: 10px 30px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 10px;
+    background: #000;
+    font-size: 20px;
+}
+.phoneBtn svg{
+    margin-right: 10px;
+}
+.contact2 input{
+    width: 100%;
+    padding: 20px 20px;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+.contact2Input{
+    display: flex;
+    gap: 15px;
+}
+.contact2Btn{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.attachBtn{
+    margin-left: 30px;
+    background: transparent;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.attachBtn svg{
+    margin-right: 10px;
+}
+@media only screen and (max-width:650px) {
+    .contact1{
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .contact1sec1{
+        width: 100%;
+    }
+    .contact2Input{
+        display: block;
+        gap: 0;
+    }
+}
+@media only screen and (max-width:400px) {
+    .contact2Btn{
+    flex-wrap: wrap;
+    gap: 20px;
+    }
+    .attachBtn{
+        margin-left: 0;
+    }
+}

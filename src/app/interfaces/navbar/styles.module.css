@@ -1,0 +1,59 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 40px;
+}
+.navsec1{
+    display: flex;
+}
+.logoImg{
+    margin-right: 60px;
+}
+.logoImg img {
+    height: 56px;
+    width: auto;
+}
+.navsec2{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.navsec2 li:nth-child(1){
+    color: #000000;
+}
+.navsec2 li{
+    font-weight: 400;
+    color: #565656;
+}
+.navsec2 li a {
+    color: #4F00FF;
+    text-decoration: none;
+    font-weight: 400;
+
+} 
+.navsec3{
+    display: flex;
+    align-items: center;
+}
+.login{
+    border-right: 2px solid #5656565C;
+    margin-right: 20px;
+
+}
+.login p{
+    margin-right: 20px;
+    color: #FF0400;
+    font-weight: 500;
+}
+.signin p{
+    color: #4F00FF;
+    font-weight: 500;
+}
+@media only screen and (max-width: 1024px) {
+    .navsec2{
+        display: none;
+    }
+    .navsec3{
+        display: none;
+    }
+}

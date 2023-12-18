@@ -1,0 +1,101 @@
+.horn{
+    margin-top: 120px;
+    width: 100%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+.sec1{
+/* width: 100%; */
+
+}
+.sec1 h1{
+    font-weight: 300;
+    font-size: 72px;
+    margin-bottom: 15px;
+    max-width: 500px;
+}
+.sec1 h1 span{
+    font-weight: 700;
+}
+.subtitle{
+font-size: 18px;
+font-weight: 400;
+text-transform: uppercase;
+margin-bottom: 10px;
+}
+.para{
+color: #565656;
+font-weight: 400;
+font-size: 30px;
+width: 100%;
+max-width: 500px;
+}
+.shorttitle{
+    margin: 30px 0px;
+    font-size: 30px;
+    font-weight: 400;
+    color: #000;
+}
+.contact{
+    margin-bottom: 50px;
+}
+.contact p {
+    font-weight: 300;
+    font-size: 30px;
+    color: #7D7D7D;
+    margin-bottom: 30px;
+}
+.btnGroup{
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.sec2{
+    width: auto;
+    height: auto;
+}
+.hornImg{
+    position: relative !important;
+
+}
+@media only screen and (max-width: 768px) {
+    .para{
+        
+        font-size: 20px;
+       
+        }
+        .shorttitle{
+            
+            font-size: 20px;
+           
+        }
+        
+        .contact p {
+          
+            font-size: 20px;
+            
+           
+        }
+        .sec2 img{
+            width: 500px;
+        }
+}
+@media only screen and (max-width: 768px) {
+    .sec2 img{
+        width: 400px;
+    }
+}
+@media only screen and (max-width: 480px) {
+    .sec2 img{
+        width: 100%;
+    }
+}

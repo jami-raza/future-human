@@ -1,0 +1,264 @@
+.greatcv{
+  
+   
+}
+
+.great {
+    margin-top: 120px;
+    width: 100%;
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.radial {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-top: 137px;
+    display: none;
+}
+.radialImg{
+    position: relative !important;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.row1 {
+    display: flex;
+    justify-content: space-between;
+  
+    
+    /* background-image: url('/img/radial.png');
+    background-position: initial;
+    background-repeat: no-repeat; */
+}
+
+.sec1 {
+    width: 59%;
+ 
+}
+
+
+.heading {
+    width: 59%;
+    font-weight: 300;
+    font-size: 48px;
+    margin-bottom: 15px;
+    /* margin-left: 0; */
+}
+
+.heading span {
+    font-weight: 700;
+}
+
+.second {
+    width: 39%;
+}
+
+.box {
+    background-color: #4F00FF;
+    padding: 30px 40px;
+    border-radius: 15px;
+   
+}
+
+
+.box p {
+    color: #fff;
+    font-size: 30px;
+}
+
+.box img {
+    margin: 20px 0px;
+}
+
+.sec2 {
+    width: 39%;
+}
+
+.para1 {
+    color: #565656;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.para2 {
+    color: #565656;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.boxes {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.lines1 {
+    position: absolute;
+    left: 0;
+    z-index: -1;
+    top: 845px;
+    opacity: 0.2;
+}
+.lines1Img{
+    position: relative !important; 
+}
+.box1 {
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    height: 276px;
+    overflow: hidden;
+    border-radius: 20px;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.box1_cont {
+    width: 100%;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.box1_cont p {
+    font-size: 20px;
+}
+
+.great1Heading {
+    font-size: 30px;
+}
+
+.great1Box {
+    background-color: #4F00FF;
+    padding: 20px 40px 20px 20px;
+    border-radius: 20px;
+    color: #fff;
+}
+
+.great1Box p {
+    margin-bottom: 20px;
+}
+
+.great1Btn {
+    background-color: transparent;
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    border-radius: 20px;
+    margin-top: 20px;
+    color: #fff;
+}
+
+.greatcvImg {
+    position: relative !important;
+    height: 330px !important;
+}
+
+.cvImgBox {
+    overflow: hidden;
+}
+
+@media only screen and (max-width: 1440px) {
+    .row {
+        gap: 40px;
+    }
+
+    .row1 {
+        gap: 40px;
+    }
+
+    .sec1 {
+        width: 50%;
+    }
+
+    .sec2 {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .radial{
+        display: none !important;
+    }
+    .row1 {
+        display: block;
+    }
+
+    .sec1 {
+        margin-bottom: 40px;
+    }
+
+    .sec1 {
+        width: 100%;
+    }
+
+    .sec2 {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .row {
+        flex-wrap: wrap;
+    }
+
+    .heading {
+        width: 100%;
+    }
+
+    .heading br {
+        display: none;
+    }
+
+    .second {
+        width: 100%;
+    }
+    .para1 {
+        font-size: 26px;
+    }
+    
+    .para2 {
+        font-size: 26px;
+    }
+    .box1_cont p{
+        font-size: 18px;
+    }
+    .box p{
+        font-size: 18px;
+    }
+    .greatcvImg {
+        height: 100% !important;
+    }
+}
+@media only screen and (max-width: 515px) {
+    .cvImgBox{
+        display: none;
+    }
+    .box1{
+        height: 100%;
+    }
+    .box1_cont p {
+        margin-bottom: 40px;
+    }
+    .box{
+        padding: 15px;
+    }
+    .box1_cont{
+        padding: 15px;
+        margin: 0 auto;
+    }
+}
+@media only screen and (max-width: 1700px) {
+    .radial{
+        display: block;
+    }
+}

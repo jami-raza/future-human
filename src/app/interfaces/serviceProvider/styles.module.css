@@ -1,0 +1,51 @@
+.service{
+    width: 100%;
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 120px;
+}
+.serviceContainer{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: space-between;
+}
+.container1 h1{
+    font-size: 48px;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+.container1 h1 span{
+    font-weight: 700;
+ 
+}
+.world{
+    background: linear-gradient(89deg, #4F00FF 1.74%, #B899FF 46.34%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.container1Btns{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.container2 h4{
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 10px;
+    color: #000;
+}
+.container2 h4 span{
+    font-weight: 700;
+}
+.container2 p{
+    color: #565656;
+    width: 400px;
+    margin-bottom: 30px;
+}
+.unorder {
+    color: #565656;
+    line-height: 3;
+}
